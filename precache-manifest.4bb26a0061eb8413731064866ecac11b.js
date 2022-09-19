@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "b7e727f025c43ff7ba15",
-    "url": "/spices/static/js/main.b7e727f0.chunk.js"
+    "revision": "0aaf62ae047dc630a6b5",
+    "url": "/spices/static/js/main.0aaf62ae.chunk.js"
   },
   {
     "revision": "20ad2fb042a45b1fc36d",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/spices/static/js/runtime~main.49a89733.js"
   },
   {
-    "revision": "c5c5dd89354baf275e9d44e39b7891d9",
+    "revision": "2c3328d4e844b7465b1e548428ac4189",
     "url": "/spices/index.html"
   }
 ];
