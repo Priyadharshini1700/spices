@@ -1,6 +1,8 @@
 body{
     margin:0;
     
+
+    
 }
 
 
@@ -91,14 +93,46 @@ footer{
     background-color: #85C88A;
     color:white;
     padding:20px;
-}
-footer ul{
-list-style-type: none;
+    margin-top: 40px;
+    
+    
+   
+  
 }
 
-footer a:link{
+footer .container {
+    max-width: 1170px;
+    margin: auto;
+}
+footer li{
+list-style: none !important;
+}
+
+footer a{
     text-decoration: none;
-    color:white
+    color:white;
+    cursor: pointer;
+   
+}
+footer .fontawesome-style{
+    margin-right: 20px;
+}
+footer .fontawesome-style:hover{
+    transition: all 1s;
+    animation:rotatefont 1s linear infinite alternate-reverse;
+    color:black;
+}
+@keyframes rotatefont{
+    0%{
+        transform: scale(0.6);
+
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+footer a:link:hover{
+    color:black;
 }
 footer hr{
     
@@ -116,7 +150,8 @@ color: antiquewhite;
     
 }
 .col{
-    margin-right: 100px;;
+    margin-right: 100px;
+
 }
 
  .column{
@@ -177,7 +212,7 @@ text-align: center;
 
 .aboutSlide{
     text-align: center;
-    margin:auto 50px auto 50px;
+    margin:50px 50px 50px 100px;
     
 }
 .aboutContent{
@@ -192,6 +227,7 @@ text-align: center;
 .homePageIntro{
     text-align: center;
     margin-bottom: 50px;
+    margin-top: 40px;
  
 }
 .homePageIntro h1{
@@ -205,9 +241,11 @@ text-align: center;
    border: 1px solid;
    border-radius: 10px;
    padding: 30px;
-   width: 100%;
+   width: 50%;
    height:270px;
    margin-bottom: 50px;
+   text-align: left;
+   flex-grow: 1;
    
    
 }
@@ -219,10 +257,25 @@ text-align: center;
     margin-bottom: 150px;
   
  }
-
- .loginhr{
-    height: 2px !important;
-    width:86% !important;
+main{
+    
+    min-height: 100vh !important;
+}
  
-    margin:60px  70px  100px 70px;
- }
+
+.offeringImg{
+    background-image: url("offering.jpg");
+    
+    background-repeat: no-repeat;
+  background-size: cover;
+  margin:auto 20px;
+    
+}
+.offeringImg h2{
+    padding-top:200px;
+    padding-bottom:200px;
+}
+
+.offeringPage h1{
+    margin:40px auto;
+}
